@@ -1,0 +1,1 @@
+cmd_/home/eric142857/OsCourseDesign/ex3/mydev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/eric142857/OsCourseDesign/ex3/mydev.ko /home/eric142857/OsCourseDesign/ex3/mydev.o /home/eric142857/OsCourseDesign/ex3/mydev.mod.o ;  true
